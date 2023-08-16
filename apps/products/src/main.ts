@@ -4,6 +4,8 @@ import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 import { AppModule } from './app/app.module';
 import { environment } from './environments/environment';
 
+const STRIPE_API_KEY="sk_cndscnsdkc432nbjkcnsdkcnsdkn"
+
 if (environment.production) {
   enableProdMode();
 }
